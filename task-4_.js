@@ -10,23 +10,23 @@
 
 class StringBuilder {
   constructor(value) {
-    this._value = value; // Зберігаємо переданий рядок
+    this._value = value;
   }
 
   get value() {
-    return this._value; // Геттер для отримання значення
+    return this._value;
   }
 
   append(str) {
-    this._value += str; // Додаємо рядок в кінець
+    this._value += str;
   }
 
   prepend(str) {
-    this._value = str + this._value; // Додаємо рядок на початок
+    this._value = str + this._value;
   }
 
   pad(str) {
-    this._value = str + this._value + str; // Додаємо рядок з обох сторін
+    this._value = str + this._value + str;
   }
 }
 
